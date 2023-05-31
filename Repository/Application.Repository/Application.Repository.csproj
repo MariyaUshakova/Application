@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Repository.Contracts\Application.Repository.Contracts.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="Application.Controller" />
+	</ItemGroup>
+
+</Project>
